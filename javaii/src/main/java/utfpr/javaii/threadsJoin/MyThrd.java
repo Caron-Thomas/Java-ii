@@ -1,4 +1,4 @@
-package utfpr.javaii.threads;
+package utfpr.javaii.threadsJoin;
 
 public class MyThrd extends Thread {
 

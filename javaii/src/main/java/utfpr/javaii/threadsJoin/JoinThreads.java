@@ -1,4 +1,4 @@
-package utfpr.javaii.threads;
+package utfpr.javaii.threadsJoin;
 
 public class JoinThreads {
 
@@ -15,6 +15,7 @@ public class JoinThreads {
             mt1.join();
             mt2.join();
             mt3.join();
+
         } catch (InterruptedException e) {
             System.out.println("Something went wrong! Threads were interrupted: ");
         }
